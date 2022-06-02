@@ -1,0 +1,41 @@
+.App {
+  border: solid 2px dodgerblue;
+  background-color: white;
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  border-radius: 10px;
+  padding-bottom: 5px;
+  padding-top: 5px;
+}
+.footer {
+  display: flex;
+  width: 18rem;
+  margin: 0px auto;
+  justify-content: space-around;
+}
+.headerForm {
+  padding: 20px;
+  display: flex;
+  justify-content: space-evenly;
+}
+.footerText {
+  margin: 6px;
+  display: flex;
+  justify-content: center;
+  border: solid 0.5px dodgerblue;
+  border-radius: 15px;
+  font-family: "Roboto";
+}
+.todoname {
+  font-family: "Roboto";
+  display: contents;
+}
+
+#root {
+  display: flex;
+  background-color: rgb(207, 207, 207);
+  width: 100vw;
+  height: 100vh;
+}
